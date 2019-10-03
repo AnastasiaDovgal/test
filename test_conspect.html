@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>
+        HTTP Methods
+        - POST
+        - GET
+        - REACH
+        - DELET
+    </p>
+
+    <ul>
+        <li id="1">1</li>
+        <li id="2">2</li>
+    </ul>
+
+    <script>
+        const first = document.getElementById('1');
+        const second = document.getElementById('2');
+        second.append(first);
+
+        first.style.display = 'none';
+        first.className = 'none';
+        first.classList[0] = 'foo';
+
+        Promise.all([() => {
+            fatch().catch(error => Promise.resolve(error))
+            // чтобы не возвращали ошибку
+        },
+        fetch()]).then(result => {
+            // параллельный запрос на 2 запроса
+
+        }).catch(() => { });
+
+        async function foo1() {
+            const res = 'test';
+            return await res;
+        }
+
+        // ниже код закинется
+        let data = new FormData();
+
+        data.append('photo', photo)
+
+        fetch('', {
+            'method': 'POST',
+            'body': data
+        })
+    </script>
+
+</body>
+
+</html>
