@@ -9,7 +9,9 @@ function App() {
       <header className="App-header">
         <h1>My first react app</h1>
         <ToDoList />
-        <Form />
+        <Form name='1' />
+        <Form name='2' />
+        <Form name='3' />
       </header>
     </div>
   );
